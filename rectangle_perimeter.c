@@ -1,5 +1,7 @@
-#include <stdio.h>
 //program to calculate perimeter of rectangle.
+//Garvit Gupta
+//July 2025
+#include <stdio.h>
 int main (){
     int l,b;
     printf("Enter length of the rectangle:");
