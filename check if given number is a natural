@@ -1,0 +1,18 @@
+/*Program to check if the given number is a
+natural number
+Garvit Gupta
+July 2025*/
+#include <stdio.h>
+int main(){
+    int num;
+    printf("Enter a number:");
+    scanf("%d",&num);
+    if(num<0){
+        printf("It is a negative number");
+    } else if(num>0){
+        printf("It is a natural number as well as whole number");
+    } else{
+        printf("It is a whole number");
+    }
+    return 0;
+}
